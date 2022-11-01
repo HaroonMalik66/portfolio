@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.header-btn {
+  background-color: var(--sweetYellow);
+}
+
+.name-h {
+  color: var(--sweetYellow);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  align-items: center;
+}
+
+.header-menu > li:hover {
+  cursor: pointer;
+  color: var(--sweetYellow);
+}
+
+@media screen and (max-width: 768px) {
+  .Header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+  .header-menu {
+    flex-direction: column;
+    background-color: transparent;
+    padding: 2rem;
+  }
+}

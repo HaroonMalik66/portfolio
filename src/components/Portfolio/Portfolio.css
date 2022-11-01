@@ -1,0 +1,48 @@
+.portfolio {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.projects {
+  padding: 4rem 0;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  /* padding: 1rem; */
+  background-color: var(--appColor);
+  border-radius: 5px;
+}
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.project > img {
+  width: 100%;
+}
+.btn-container-p {
+  display: flex;
+  gap: 2rem;
+  width: 85vw;
+  margin: 1.5rem 0;
+}
+.portfolio-btn {
+  background-color: transparent;
+  border: 2px solid var(--sweetYellow);
+  transition: ease-in 0.3s;
+}
+.portfolio-btn:hover {
+  background-color: var(--sweetYellow);
+}
+.portfolio-btn > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--sweetYellow);
+  transition: ease-in 0.3s;
+}
+.portfolio-btn:hover > a {
+  color: var(--appColor);
+}
