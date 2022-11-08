@@ -40,19 +40,14 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link
-                onClick={() => setMenuOpened(false)}
-                to="programs"
-                spy
-                smooth
-              >
+              <Link onClick={() => setMenuOpened(false)} to="skills" spy smooth>
                 Skills
               </Link>
             </li>
             <li>
               <Link
                 onClick={() => setMenuOpened(false)}
-                to="reasons"
+                to="portfolio"
                 spy
                 smooth
               >
@@ -60,21 +55,29 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link onClick={() => setMenuOpened(false)} to="plans" spy smooth>
+              <Link onClick={() => setMenuOpened(false)} to="about" spy smooth>
                 About me
               </Link>
             </li>
             <li>
               <Link
                 onClick={() => setMenuOpened(false)}
-                to="testimonials"
+                to="contact"
                 spy
                 smooth
               >
                 Contact
               </Link>
             </li>
-            <button className="btn header-btn">Download CV</button>
+            <button className="btn header-btn">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/1izvZrzkUTBiQXTrucIe2Y-L7NVr-SHfK/view?usp=share_link"
+              >
+                Download CV
+              </a>
+            </button>
           </ul>
         </>
       )}

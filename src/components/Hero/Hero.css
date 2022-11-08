@@ -21,6 +21,9 @@
   color: white;
   text-overflow: inherit;
 }
+.hero-text > :nth-child(2) {
+  max-width: 85%;
+}
 .heading-h {
   font-size: 4.5rem;
   font-weight: bold;
@@ -48,7 +51,7 @@
   border: 2px solid var(--sweetYellow);
   border-radius: 5px;
   position: absolute;
-  top: 14rem;
+  top: 16rem;
   right: 9rem;
   z-index: 2;
 }
@@ -58,9 +61,9 @@
   z-index: 3;
   transition: ease-in-out 0.3s;
 }
-.right-h > img:hover {
+/* .right-h > img:hover {
   transform: translateX(-4.1rem) translateY(1.65rem);
-}
+} */
 .button-container-h {
   display: flex;
   align-items: center;
@@ -76,9 +79,6 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
-.outlined-btn {
-  background-color: blackq;
 }
 
 .icon-h {

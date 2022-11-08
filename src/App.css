@@ -10,6 +10,7 @@
 }
 * {
   background-color: transparent;
+  /* -webkit-font-smoothing: antialiased; */
 }
 
 .App {

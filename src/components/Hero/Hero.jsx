@@ -3,13 +3,13 @@ import React from "react";
 import Header from "../Header/Header";
 import profilePhoto from "../../assets/profile.jpg";
 import email from "../../assets/envelope-solid.svg";
-import whatsapp from "../../assets/square-whatsapp.svg";
+import { ReactComponent as Whatsapp } from "../../assets/square-whatsapp.svg";
 
 import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="Hero">
+    <div className="Hero" id="home">
       <Header />
       <div className="hero-body">
         <div className="left-h">
@@ -32,18 +32,19 @@ function Hero() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://wa.me/+923098039903"
+                  href="mailto:haroonmalik4219855@gmail.com"
                 >
-                  Contact Me <img src={whatsapp} alt=" " className="icon-h" />
+                  Contact Me <img src={email} alt=" " className="icon-h" />
                 </a>
               </button>
               <button className="btn header-btn">
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="mailto:haroonmalik4219855@gmail.com"
+                  href="https://wa.me/+923098039903"
                 >
-                  Contact Me <img src={email} alt=" " className="icon-h" />
+                  Contact Me
+                  <Whatsapp fill="green" style={{ width: "1rem" }} />
                 </a>
               </button>
             </div>

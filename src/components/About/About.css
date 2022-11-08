@@ -1,0 +1,32 @@
+.about {
+  padding: 0 5rem 5rem;
+}
+.about-card {
+  width: 50rem;
+  /* background-color: var(--appColor); */
+  margin: 5rem auto;
+}
+
+.left-a > img {
+  width: 10rem;
+  border-radius: 5px;
+}
+.about-card > :nth-child(1) {
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-start;
+}
+
+.right-a > table {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-left: 1rem;
+}
+.pkflag {
+  width: 1.8rem;
+}
+.about-text {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}

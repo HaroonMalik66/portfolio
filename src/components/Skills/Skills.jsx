@@ -5,7 +5,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <span className="heading-s">
         My <span className="stroke-text">Skills</span>
       </span>

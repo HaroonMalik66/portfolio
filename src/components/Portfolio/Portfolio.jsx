@@ -5,7 +5,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <span className="heading-s">
         Some <span className="stroke-text"> Major </span> Projects
       </span>

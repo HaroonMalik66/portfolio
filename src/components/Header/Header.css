@@ -9,7 +9,10 @@
 .header-btn {
   background-color: var(--sweetYellow);
 }
-
+.header-btn > a {
+  text-decoration: none;
+  color: var(--textgray);
+}
 .name-h {
   color: var(--sweetYellow);
   font-size: 1.5rem;
@@ -32,11 +35,12 @@
   .Header > :nth-child(2) {
     position: fixed;
     right: 2rem;
+    top: 1rem;
     z-index: 99;
   }
   .header-menu {
     flex-direction: column;
-    background-color: transparent;
+    background-color: var(--appColor);
     padding: 2rem;
   }
 }

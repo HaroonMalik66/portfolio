@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 25rem;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 10px;
+}
+.form-title {
+  align-self: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--sweetYellow);
+}
+.contact-form > label {
+  margin-top: 2rem;
+}
+.contact-form > textarea,
+.contact-form > input {
+  color: white;
+  outline: none;
+  line-height: 1rem;
+}
+.contact-form > textarea {
+  border: 1px solid white;
+}
+.contact-form > input {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.submit-btn-f {
+  align-self: center;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
