@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 7rem 5rem;
-  /* min-height: 50vh; */
 }
 .left-h {
   display: flex;
@@ -83,4 +82,23 @@
 
 .icon-h {
   width: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-body {
+    padding: auto 1rem;
+  }
+  .left-h {
+    width: fit-content;
+  }
+  .right-h {
+    padding: 0;
+  }
+  /* .heading-h {
+    font-size: xx-large;
+  } */
+
+  .right-h > :nth-child(1) {
+    display: none;
+  }
 }

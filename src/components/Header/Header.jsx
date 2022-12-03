@@ -7,6 +7,7 @@ import "./Header.css";
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
+
   return (
     <div className="Header">
       <span className="name-h">Haroon Ahmed</span>
@@ -30,7 +31,9 @@ const Header = () => {
           <ul className="header-menu">
             <li>
               <Link
-                onClick={() => setMenuOpened(false)}
+                onClick={() => {
+                  setMenuOpened(false);
+                }}
                 to="home"
                 spy
                 smooth

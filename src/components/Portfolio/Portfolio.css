@@ -3,46 +3,74 @@
   padding-right: 5rem;
 }
 .projects {
-  padding: 4rem 0;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }
 .project {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 3rem;
-  /* padding: 1rem; */
-  background-color: var(--appColor);
   border-radius: 5px;
+  overflow: hidden;
+  width: 35rem;
+}
+.technologies {
+  padding: 1rem 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.tech-bubble {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 0;
 }
 .project-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 1.5rem;
+  font-size: 1.2rem;
+
+  text-align: left;
 }
 .project > img {
   width: 100%;
 }
 .btn-container-p {
   display: flex;
-  gap: 2rem;
-  width: 85vw;
-  margin: 1.5rem 0;
+  gap: 0.5rem;
 }
 .portfolio-btn {
   background-color: transparent;
-  border: 2px solid var(--sweetYellow);
+  border: 1px solid var(--sweetYellow);
   transition: ease-in 0.3s;
+  padding: 10px;
+  border-radius: none;
+  font-weight: normal;
 }
 .portfolio-btn:hover {
   background-color: var(--sweetYellow);
 }
 .portfolio-btn > a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--sweetYellow);
   transition: ease-in 0.3s;
 }
 .portfolio-btn:hover > a {
-  color: var(--appColor);
+  color: black;
+}
+.screeshot {
+  width: 100%;
+  height: 10rem;
 }

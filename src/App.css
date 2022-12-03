@@ -10,23 +10,23 @@
 }
 * {
   background-color: transparent;
-  /* -webkit-font-smoothing: antialiased; */
+  -webkit-font-smoothing: antialiased;
 }
 
 .App {
   background: url("./assets/bodybg.jpg") fixed;
-
   background-repeat: round;
   color: white;
+  /* display: flex;
+  flex-direction: column; */
 }
 .btn {
-  padding: 0.5rem;
   font-weight: bold;
   transition: 300ms all;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid var(--sweetYellow); */
+
   border-radius: 3px;
   background-color: var(--sweetYellow);
 }
