@@ -14,7 +14,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.wa.me/+923098039903"
+            href="https://wa.me/+923098039903"
           >
             <Whatsapp fill="green" />
             Whatsapp
