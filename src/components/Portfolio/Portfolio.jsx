@@ -23,16 +23,22 @@ const Portfolio = () => {
                 <span>{project.title}</span>
               </div>
               <div className="btn-container-p">
-                <button className="btn portfolio-btn">
-                  <a target="_blank" rel="noreferrer" href={project.link}>
-                    Visit Site
-                  </a>
-                </button>
-                <button className="btn portfolio-btn">
-                  <a target="_blank" rel="noreferrer" href={project.sourceCode}>
-                    Source Code
-                  </a>
-                </button>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.link}
+                  className="portfolio-btn-link"
+                >
+                  <button className="btn portfolio-btn">Visit Site</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.sourceCode}
+                  className="portfolio-btn-link"
+                >
+                  <button className="btn portfolio-btn">Source Code</button>
+                </a>
               </div>
             </div>
           </div>

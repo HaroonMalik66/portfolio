@@ -8,8 +8,9 @@
 
 .header-btn {
   background-color: var(--sweetYellow);
+  padding: 1rem;
 }
-.header-btn > a {
+.header-btn-link {
   text-decoration: none;
   color: var(--textgray);
 }

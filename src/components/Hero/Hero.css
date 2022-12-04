@@ -69,15 +69,14 @@
   gap: 2rem;
 }
 .header-btn {
-  padding: 1rem;
-}
-.header-btn > a {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.hero-btn-a {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
 }
 
 .icon-h {

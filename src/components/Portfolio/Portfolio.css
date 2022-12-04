@@ -53,6 +53,7 @@
 .portfolio-btn {
   background-color: transparent;
   border: 1px solid var(--sweetYellow);
+  color: var(--sweetYellow);
   transition: ease-in 0.3s;
   padding: 10px;
   border-radius: none;
@@ -60,16 +61,14 @@
 }
 .portfolio-btn:hover {
   background-color: var(--sweetYellow);
-}
-.portfolio-btn > a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: var(--sweetYellow);
-  transition: ease-in 0.3s;
-}
-.portfolio-btn:hover > a {
   color: black;
 }
+.portfolio-btn-link {
+  text-decoration: none;
+
+  transition: ease-in 0.3s;
+}
+
 .screeshot {
   width: 100%;
   height: 10rem;

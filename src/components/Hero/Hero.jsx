@@ -28,25 +28,26 @@ function Hero() {
               </span>
             </div>
             <div className="button-container-h">
-              <button className="btn header-btn">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="mailto:haroonmalik4219855@gmail.com"
-                >
+              <a
+                className="hero-btn-a"
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:haroonmalik4219855@gmail.com"
+              >
+                <button className="btn header-btn">
                   Contact Me <img src={email} alt=" " className="icon-h" />
-                </a>
-              </button>
-              <button className="btn header-btn">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://wa.me/+923098039903"
-                >
-                  Contact Me
-                  <Whatsapp fill="green" style={{ width: "1rem" }} />
-                </a>
-              </button>
+                </button>
+              </a>
+              <a
+                className="hero-btn-a"
+                target="_blank"
+                rel="noreferrer"
+                href="https://wa.me/+923098039903"
+              >
+                <button className="btn header-btn">
+                  Contact Me <Whatsapp fill="green" style={{ width: "1rem" }} />
+                </button>
+              </a>
             </div>
           </div>
         </div>

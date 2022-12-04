@@ -72,15 +72,14 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <button className="btn header-btn">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://drive.google.com/file/d/1izvZrzkUTBiQXTrucIe2Y-L7NVr-SHfK/view?usp=share_link"
-              >
-                Download CV
-              </a>
-            </button>
+            <a
+              className="header-btn-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/12AGqRlIkrmhezYlGePZyFX2bmwJPOXYz/view?usp=drivesdk"
+            >
+              <button className="btn header-btn">Download CV</button>
+            </a>
           </ul>
         </>
       )}

@@ -17,8 +17,6 @@
   background: url("./assets/bodybg.jpg") fixed;
   background-repeat: round;
   color: white;
-  /* display: flex;
-  flex-direction: column; */
 }
 .btn {
   font-weight: bold;
